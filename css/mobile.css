@@ -1,0 +1,9 @@
+@import "/css/style";
+@media(max-width: 570px) {
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}

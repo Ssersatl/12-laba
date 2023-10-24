@@ -1,0 +1,81 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: antiquewhite;
+	height: 100vh;
+	margin: 0;
+}
+.wrapper {
+	display: flex;
+	align-items: flex-start;
+	gap: 50px;
+}
+#flashcardContainer {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#flashcard {
+	width: 301px;
+	height: 190px;
+	display: flex;
+	background-color: yellow;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	line-height: 90px;
+	font-size: 29px;
+	font-weight: 600;
+	cursor: pointer;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px; 
+}
+#translationInput {
+	font-size: 18px;
+	background-color: transparent;
+	border: 2px solid #d49714;
+	border-radius: 5px;
+	padding: 15px 19px;
+	margin-top: 30px; 
+}
+#answerStatus {
+	margin: 15px 0;
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: underline;
+}
+#progress, #score {
+	margin-top: 10px;
+	width: 150px;
+}
+#progress span {
+	margin-right: 3px;
+	margin-left: 3px;
+}
+#correctCount {
+	margin-top: 25px;
+	font-size: 22px;
+	font-weight: 700;
+}
+#incorrectCount {
+	margin-top: 10px;
+	font-size: 22px;
+	font-weight: 700;
+}
+.selecter {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+label {
+	font-size: 21px;
+}
+#difficultySelect {
+	margin-right: auto; 
+	margin-top: 20px;
+	background-color: transparent;
+	padding: 18px 13px;
+	font-size: 18px;
+}
